@@ -2,9 +2,10 @@
   "name": "nytreact",
   "version": "1.0.0",
   "description": "New York Times Articles Search App",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
   },
   "repository": {
     "type": "git",
